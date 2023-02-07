@@ -79,13 +79,3 @@ console.log(productos.getProducts())
 
 
 productos.addProduct('titulo3', 'description3', '402' , 'imagen3' , 'code1234' , 7)
-
-
-//Busqueda producto por ID
-
-productos.getProductById(2)
-
-
-//Busqueda producto por ID no encontrado
-
-productos.getProductById(5)
